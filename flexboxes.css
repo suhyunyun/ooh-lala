@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+div {
+	display:flex;
+	border: 2px black solid;
+	border-radius: 3px;
+	margin:3px;
+	cursor: pointer;
+}
+#parent{
+	height:300px;
+	width:800px;
+	justify-content:center;
+	align-items:center;
+	flex-direction:row-reverse;
+}
+#box1 {
+	background-color:#90F;
+	flex:1;
+	cursor:not-allowed;
+}
+#box2 {
+	background-color:#93F;
+	flex:1;
+}
+#box3 {
+	background-color:#96F;
+	flex:1;
+}
+#box4 {
+	background-color:#99F;
+	flex:1;
+}
+#box5 {
+	background-color:#9CF;
+	flex:1;
+}
+#parent2{
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+#box12 {
+	background-color:#CCC;
+	flex:1;
+}
+#box22 {
+	background-color:#C9C;
+	flex:6;
+}
+#box32 {
+	background-color:#C6C;
+	flex:1;
+}
+#box42 {
+	background-color:#C3C;
+	flex:1;
+}
+#box52 {
+	background-color:#C0C;
+	flex:1;
+}

@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*background color*/
+body{
+	animation-name: practice;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes practice {
+	0% {background-color: #FCF;}
+  20% {background-color: #F9C;}
+  40% {background-color: #F39;}
+  60% {background-color: #F09;}
+  80% {background-color: #F06;}
+  100% {background-color: #F03;}
+}
+
+/*disappearing <div>*/
+div{
+	animation-name: vanish;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes vanish {
+  0% {opacity:1;}
+  50% {opacity:0;}
+  100% {opacity:1;}
+}
+
+/*create growing/shrinking text*/
+#grow{
+	animation-name: grow;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes grow{
+  0% {font-size:24px;}
+  50% {font-size:48px;}
+  100% {font-size:24px;}
+}
+
+/*changing border*/
+
+#border1{
+	border: 2px solid black;
+	animation-name: border1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes border1 {
+  0% {border: 2px solid black ;}
+  50% {border: 10px solid black ;}
+  100% {border: 2px solid black ;}
+}
+/*create movement*/
+#moveIMG{
+	animation-name: margin1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes margin1 {
+  0% {margin-left: 5px; margin-top: 5px;}
+  50% {margin-left: 250px; margin-top: 50px;}
+  100% {margin-left: 5px; margin-top: 5px;}
+}
+
+
+/*create something that spins*/
+#spinIMG{
+	animation-name: spin1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes spin1 {
+  100% {transform:rotate(360deg);}
+}
+	
+	

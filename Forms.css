@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+fieldset {
+	border: 8px inset;
+	background-color:#FFC;
+}
+legend {
+	color:#F9C;
+	font-size:18px;
+	text-align:center;
+}
+div {
+	float:left;
+	width:500px;
+	
+}
+
