@@ -64,7 +64,7 @@
         <div>
         <fieldset>
             <legend>Question #5</legend>
-        	<p> Fill in the blanks: "Taylor Swift's 5th studio album is called<input name="q5"type="color"/>"</p>
+        	<p> Fill in the blanks: "Taylor Swift's 5th studio album is called <input name="q5"type="color"/>"</p>
             
         </fieldset> 
         </div>
